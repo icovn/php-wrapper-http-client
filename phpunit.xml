@@ -18,6 +18,11 @@
   <logging>
     <log type="coverage-html" target="./tests/codeCoverage" charset="UTF-8"/>
   </logging>
+  <filter>
+    <whitelist>
+      <directory suffix=".php">src/</directory>
+    </whitelist>
+  </filter>
   <php>
     <env name="APP_ENV" value="testing"/>
     <env name="CACHE_DRIVER" value="array"/>
