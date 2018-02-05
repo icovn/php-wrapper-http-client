@@ -2,9 +2,13 @@
     "name": "icovn/php-wrapper-http-client",
     "description": "A HTTP client for PHP",
     "require": {
+        "php": ">=5.0.0",
         "guzzlehttp/guzzle": "^6.3",
         "monolog/monolog": "^1.23",
         "vlucas/phpdotenv": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
     },
     "authors": [
         {
